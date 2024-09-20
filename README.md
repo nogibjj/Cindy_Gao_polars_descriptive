@@ -26,7 +26,9 @@ data = "https://raw.githubusercontent.com/anlane611/datasets/main/population.csv
 
 
 # Statistic Summary for the data:
-<img width="478" alt="image" src="https://github.com/user-attachments/assets/58819caf-97d1-443c-86f6-a6360bca79c5">
+<img width="409" alt="image" src="https://github.com/user-attachments/assets/bf7101be-b4f6-486f-a57c-599e940122c0">
+
+
 
 
 
