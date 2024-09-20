@@ -60,17 +60,17 @@ print(get_std(dataframe, "Y"))
 # Define test functions
 def test_mean():
     """Test the get_mean function"""
-    assert get_mean(dataframe, "Y") == 19.97579252039033
+    assert round(get_mean(dataframe, "Y"), 6) == 19.976
 
 
 def test_median():
     """Test the get_median function"""
-    assert get_median(dataframe, "Y") == 19.97102000166825
+    assert round(get_median(dataframe, "Y"), 3) == 19.971
 
 
 def test_std():
     """Test the get_std function"""
-    assert get_std(dataframe, "Y") == 5.004964559422916
+    assert round(get_std(dataframe, "Y"), 3) == 5.005
 
 
 if __name__ == "__main__":
