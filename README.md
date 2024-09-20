@@ -19,7 +19,7 @@
 3. Compare the functions for the accuracy
 4. Create data visualization (a boxplot) for variable Y
 5. Create a markdown or pdf file for the summary
-6. Use Profiler to compare between Pandas and Polars
+6. Use Profiler to compare between the execution time Pandas and Polars
 
 
 # Url to the raw data:
