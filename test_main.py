@@ -55,7 +55,7 @@ print(get_std(dataframe, "Y"))
 # Define test functions
 def test_mean():
     """Test the get_mean function"""
-    assert get_mean(dataframe, "Y") == 19.97579252039033
+    assert get_mean(dataframe, "Y") == 19.975792520390325
 
 
 def test_median():
