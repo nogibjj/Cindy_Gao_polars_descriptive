@@ -1,3 +1,4 @@
+[![Assignment 1 Python Application Test with Github Actions from Cindy](https://github.com/nogibjj/Cindy_Gao_polars_descriptive/actions/workflows/actions.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_polars_descriptive/actions/workflows/actions.yml)
 # Cindy_Gao_polars_descriptive
 
 - .devcontainer: It sets up a consistent development environment across different machines.
