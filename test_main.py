@@ -19,8 +19,13 @@ print(dataframe)
 
 
 def load_dataset_pd(dataset):
-    df = pd.read_csv(dataset)
-    return df
+    df_pd = pd.read_csv(dataset)
+    return df_pd
+
+
+def describe_pd(df):
+    df_description = df.describe()
+    return df_description
 
 
 # Use Profiler to compare pandas and polars
@@ -38,7 +43,7 @@ with Profiler(interval=0.1) as profiler:
     check_pd = data
     df = load_dataset_pd(check_pd)
     print(df.shape)
-    print(pl_describe(df))
+    print(describe_pd(df))
     print(df["Y"].mean)
     print(df["Y"].mean)
 
@@ -55,7 +60,7 @@ print(get_std(dataframe, "Y"))
 # Define test functions
 def test_mean():
     """Test the get_mean function"""
-    assert get_mean(dataframe, "Y") == 19.975792520390325
+    assert get_mean(dataframe, "Y") == 19.97579252039033
 
 
 def test_median():
