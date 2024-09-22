@@ -41,6 +41,8 @@ Pandas:
 <img width="880" alt="image" src="https://github.com/user-attachments/assets/5d0217a7-7aa4-466b-a843-92851851138a">:
 <br><br>
 Polars:
+<img width="1080" alt="image" src="https://github.com/user-attachments/assets/44a8da6a-b703-406f-949a-14461959b9d8">
+
 
 
 
