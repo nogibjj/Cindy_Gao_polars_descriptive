@@ -36,6 +36,13 @@ data = "https://raw.githubusercontent.com/anlane611/datasets/main/population.csv
 # Below is the boxplot for variable Y:
 ![Boxplot for Variable Y](boxplot.png)
 
+# Profiler comparison:
+Pandas:
+<img width="880" alt="image" src="https://github.com/user-attachments/assets/5d0217a7-7aa4-466b-a843-92851851138a">:
+<br><br>
+Polars:
+
+
 
 
 
